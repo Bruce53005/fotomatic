@@ -409,15 +409,17 @@ footer .copyright {
 }
 
 
-/*
+/* 
 p, h1, h3, li{
   background-color: pink;
 }
-*/
-/*Ghost Debug Code
+ */
 
+/*__________Ghost Debug Code___________*/
+/* 
 * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 }
+ */
