@@ -1,3 +1,12 @@
+/*__________border-box reset__________*/
+ *, *::before, *::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+ 
 /* __________ Universal Styles __________ */
 
 html {
@@ -72,7 +81,9 @@ nav a {
 
 header .icon {
   width: 1rem;
-  padding-left: .75rem;
+  margin-left: 1rem;
+  position: relative;
+  top: -1px;
 }
 
 header .mobile {
@@ -416,10 +427,9 @@ p, h1, h3, li{
  */
 
 /*__________Ghost Debug Code___________*/
-/* 
-* {
+
+/* * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}
- */
+} */
